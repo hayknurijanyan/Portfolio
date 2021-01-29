@@ -1,0 +1,145 @@
+:root {
+    --darkblue: #30475e;
+    --dark: #222831;
+    --grey: #dddddd;
+    --red:  #f05454;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    scroll-margin-top: 2.8rem;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-list{
+    display: flex;
+    background-color: var(--dark);
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+    list-style-type:none;
+    border-bottom: 1.5px solid var(--red);
+}
+
+.nav-list{
+    text-decoration: none;
+} 
+.nav-list-item a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin:0rem 1.3rem;
+
+}
+
+.nav-list-item a:hover{
+    color: var(--red)
+}
+
+#slider{
+    margin-top: 3rem;
+    width: 100%;
+    height: 94vh;
+    background-image: url(imgs/pexels-huseyn-kamaladdin-667838.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+#portfolio{
+    width: 100%;
+    height: 120vh;
+    background-color: var(--darkblue);
+}
+
+.portfolio-header{
+    display: flex;
+    width: 100%;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    color: #dddddd;
+}
+
+.portfolio-list{
+    display: grid;
+    grid-gap: 2rem 4rem;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.item-img{
+    width: 100%;
+
+}
+
+.portfolio-list-item1{
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--grey);
+}
+
+.portfolio-list-item2{
+    background-color: var(--grey);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.portfolio-list-item3{
+    background-color: var(--grey);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.portfolio-list-item4{
+    background-color: var(--grey);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.portfolio-list-item5{
+    background-color:var(--grey);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.portfolio-list-item6{
+    background-color: var(--grey);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--grey);
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--red);
+}
+
+#footer{
+    width: 100%;
+    height: 20vh;
+    background-color: var(--dark);
+}
