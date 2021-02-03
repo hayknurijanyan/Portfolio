@@ -1,442 +1,168 @@
-:root {
-  --main: #ffffff;
-  --secondary: #222831;
-  --grey: #dddddd;
-  --blue: #1984ea;
-  --black: #1d1d1f;
-  --backgrey: #f7f7f7;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  scroll-margin-top: 2.8rem;
-  scroll-behavior: smooth;
-  color: var(--black);
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-body {
-  margin: 0;
-}
 
-.header {
-  margin: 0;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+    <title>Hayk Nurijanyan - Web Developer</title>
+</head>
 
-.header-nav {
-  display: flex;
-  background-color: var(--main);
-  color: black;
-  justify-content: space-around;
-  height: 3rem;
-  align-items: center;
-  border-bottom: 0.1px solid var(--grey);
-  opacity: 80%;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <div class="nav-logo"><a href="#">Hayk Nurijanyan</a></div>
+            <ul class="nav-list">
+                <li class="nav-list-item"> <a href="#services">Services</a> </li>
+                <li class="nav-list-item"> <a href="#portfolio">Projects</a> </li>
+                <li class="nav-list-item"> <a href="#about">About</a> </li>
+            </ul>
+            <div class="nav-contact"><a href="#contact">Contact ></a></div>
+        </nav>
+    </header>
 
-.nav-logo {
-  width: 9rem;
-}
-.nav-logo a {
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--secondary);
-}
+    <main>
+        <section id="slider">
+            <div class="slider-portrait"></div>
+            <div class="slider-description">
+                <h2 class="slider-description-name">Hayk Nurijanyan</h2>
+                <h1 class="slider-description-profession">Web Developer.</h1>
+                <p class="slider-description-paragraph">Web Design & Development for companies that want to grow
+                </p>
+                <p class="slider-description-paragraph">their business with a great website.</p>
+                <div class="slider-cta"><a href=""> Start a project request ></a></div>
+            </div>
+        </section>
 
-.nav-contact {
-  width: 9rem;
-}
-.nav-contact a {
-  font-size: 15px;
-  color: var(--blue);
-  text-decoration: none;
-}
+        <section id="services">
+            <h1 class="section-header">Services</h1>
+            <p class="section-paragraph">Web Design & Development Services.</p>
+            <div class="services-items">
+                <div class="services-item1">
+                    <h3 class="services-item-header">Minimalistic Landing Pages.</h3>
+                    <p class="services-item-paragraph">Sometimes, a simple landing page is the best way to make your
+                        offer as clear as possible.</p>
+                </div>
+                <div class="services-item2">
+                    <video src="vids/5f01cabaadc66df3b987467f_animation_large-transcode.mp4" loop autoplay
+                        muted></video>
+                </div>
+                <div class="services-item3">
+                    <h3 class="services-item-header">Modern Webiste Development.</h3>
+                    <p class="services-item-paragraph">Fully interactive website development with modern & user friendly
+                        design.</p>
+                </div>
+                <div class="services-item4">
+                    <h3 class="services-item-header">Mobile App's with React.js.</h3>
+                    <p class="services-item-paragraph">Lightweight apps for data-intensive user experiences.</p>
+                </div>
+                <div class="services-item5">
+                    <h3 class="services-item-header">Responsive Design.</h3>
+                    <p class="services-item-paragraph">iPhones, Androids, Tablets...
+                        Responsive web design will make your website versatile for any device to view on.</p>
+                </div>
+                <ul class="services-item6">
+                    <li>
+                        <img src="imgs/5f340a153d78657dae90a080_responsive.png" width="50px" alt="">
+                        <p>Responsive Design</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340a15e68d1a1d1222fbde_schnelle ladezeiten.png" width="50px" alt="">
+                        <p>Fast Loading Time</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340a14e68d1a679d22fbdd_clean css.png" width="50px" alt="">
+                        <p>Clean CSS Structure</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340865f047536359df73cb_seo.png" width="50px" alt="">
+                        <p>SEO</p>
+                    </li>
+                </ul>
+                <!-- <div class="services-item3">Modern Webiste Development</div>
+                <div class="services-item4">Mobile Applications with React.js</div>
+                <div class="services-item5">Responsive Design</div>
+                <div class="services-item6">Web Animation</div> -->
+            </div>
 
-.nav-list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-  text-decoration: none;
-  list-style-type: none;
-}
-.nav-list-item a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  font-size: 14px;
-  margin: 0rem 1.3rem;
-}
+        </section>
 
-.nav-list-item a:hover {
-  color: var(--red);
-}
+        <section id="portfolio">
+            <h1 class="section-header">Projects</h1>
+            <p class="section-paragraph">A small selection of my projects.</p>
+            <div class="portfolio-list">
+                <div class="portfolio-list-item1">
+                    <img class="item-img" src="imgs/mini-photo-prints-2.jpg" alt="">
+                    <div class="item-description"></div>
+                </div>
+                <div class="portfolio-list-item2">
+                    <img class="item-img" src="" alt="">
+                    <div class="item-description"></div>
+                </div>
+                <div class="portfolio-list-item3">
+                    <img class="item-img" src="" alt="">
+                    <div class="item-description"></div>
+                </div>
+                <div class="portfolio-list-item4">
+                    <img class="item-img" src="" alt="">
+                    <div class="item-description"></div>
+                </div>
+                <div class="portfolio-list-item5">
+                    <img class="item-img" src="" alt="">
+                    <div class="item-description"></div>
+                </div>
+                <div class="portfolio-list-item6">
+                    <img class="item-img" src="" alt="">
+                    <div class="item-description"></div>
+                </div>
+            </div>
+        </section>
 
-#slider {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 5rem;
-  width: 100%;
-  height: 100vh;
-  /* background-color: grey; */
-  /* background-image: url(imgs/pexels-huseyn-kamaladdin-667838.jpg); */
-}
+        <section id="about">
+            <h1 class="section-header">About</h1>
+        </section>
 
-.slider-portrait {
-  background-color: ivory;
-  background-image: url(imgs/portfolio3.JPG);
-  background-size: cover;
-  background-position: center;
-  border-radius: 0.5rem;
-  box-shadow: 6px 8px 10px 1px #ccc;
-  width: 17rem;
-  min-height: 20rem;
-}
-.slider-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+        <section id="contact">
+            <h1 class="section-header">Contact</h1>
+            <p class="section-paragraph">Have a question or want to work together?
+            </p>
+            <div class="contact-forms">
+                <form class="contact-form" action="" method="POST">
+                    <label for="f-name"></label>
+                    <input type="text" name="contact-form" id="name" placeholder="Name">
 
-.slider-description-name {
-  padding-top: 2.5rem;
-}
+                    <label for="f-email"></label>
+                    <input type="email" name="contact-form" id="f-email" placeholder="E-mail" required>
 
-.slider-description-profession {
-  padding-top: 0.7rem;
-  font-size: 4rem;
-}
+                    <label for="textarea"></label>
+                    <textarea id="f-textarea" rows="10" placeholder="Your message"></textarea>
 
-.slider-description-paragraph {
-  padding-top: 0.7rem;
-  font-size: 1.3rem;
-}
+                    <input type="submit" id="f-submit" value="Send >">
+                </form>
+            </div>
+        </section>
 
-.slider-cta {
-  font-size: 1.1rem;
-  padding-top: 1rem;
-}
+    </main>
 
-.slider-cta a {
-  text-decoration: none;
-  color: var(--blue);
-}
+    <footer id="footer">
+        <div class="footer-icons">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+        </div>
+        <div class="footer-text">
+            © 2021 All Rights Reserved
+        </div>
+    </footer>
 
-.section-header {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  font-size: 3rem;
-}
+</body>
 
-.section-paragraph {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  font-size: 1.2rem;
-  padding-bottom: 3rem;
-}
-
-#services {
-  width: 100%;
-  height: 120vh;
-  background-color: var(--backgrey);
-}
-
-.services-items {
-  display: grid;
-  justify-content: center;
-  width: 100%;
-  height: 80vh;
-  padding: 3rem;
-  grid-row-gap: 2rem;
-  grid-column-gap: 2rem;
-  grid-template-rows: 24% 24% 24% 24%;
-  grid-template-columns: 30% 20% 20%;
-}
-
-.services-item-header {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--black);
-  padding-bottom: 0.5rem;
-}
-
-.services-item-paragraph {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: rgb(172, 171, 171);
-}
-
-.services-item1 {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-  overflow: hidden;
-}
-
-.services-item2 {
-  grid-column: 2/4;
-  grid-row: 1/4;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-  overflow: hidden;
-}
-.services-item2 video {
-  width: 100%;
-}
-
-.services-item3 {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-  overflow: hidden;
-}
-.services-item4 {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-  overflow: hidden;
-}
-.services-item5 {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-  overflow: hidden;
-}
-.services-item6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  grid-column: 2/4;
-  border-radius: 0.5rem;
-  min-width: 3rem;
-  min-height: 5rem;
-  background-color: var(--main);
-  box-shadow: 2px 2px 8px 2px var(--grey);
-}
-.services-item6 li {
-  text-align: center;
-}
-
-.services-item6 p {
-  margin: auto;
-  font-size: small;
-}
-
-.services-item6 img {
-  margin: auto;
-}
-
-#portfolio {
-  width: 100%;
-  height: 160vh;
-}
-
-.portfolio-list {
-  display: grid;
-  grid-gap: 2rem 4rem;
-  /* align-items: center; */
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 35% 35%;
-}
-
-.item-img {
-  width: 100%;
-}
-
-.portfolio-list-item1 {
-  /* border: 1px solid red; */
-  border-radius: 0.5rem;
-  overflow: hidden;
-  background-color: var(--grey);
-}
-
-.portfolio-list-item2 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.portfolio-list-item3 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.portfolio-list-item4 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.portfolio-list-item5 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.portfolio-list-item6 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-#about {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--backgrey);
-}
-
-.about-header {
-  display: flex;
-  width: 100%;
-  font-size: 2rem;
-  font-weight: 400;
-  justify-content: center;
-  padding: 2rem;
-  color: var(--darkblue);
-}
-
-#contact {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--red);
-}
-
-.contact-header {
-  display: flex;
-  width: 100%;
-  font-size: 2rem;
-  font-weight: 400;
-  justify-content: center;
-  padding: 2rem;
-  color: #dddddd;
-}
-
-.contact-forms {
-  display: flex;
-  /* width: 100%; */
-  justify-content: center;
-  height: 80%;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 55%;
-}
-
-.contact-form input:not(#f-submit) {
-  background-color: var(--backgrey);
-  height: 3rem;
-  font-size: large;
-  margin: 0.2rem;
-  padding: 1rem;
-  border: 1px solid rgb(214, 214, 214);
-  border-radius: 0.3rem;
-  outline: none;
-}
-
-.contact-form textarea {
-  font-size: large;
-  margin: 0.2rem;
-  padding: 1rem 0 0 1rem;
-  background-color: var(--backgrey);
-  border: 1px solid rgb(214, 214, 214);
-  border-radius: 0.3rem;
-  outline: none;
-}
-
-#f-submit {
-  margin: 1rem;
-  border: none;
-  align-self: center;
-  background-color: transparent;
-  border-radius: 0.3rem;
-  font-size: larger;
-  color: var(--blue);
-  outline: none;
-}
-#f-submit:hover {
-  cursor: pointer;
-}
-
-#footer {
-  width: 100%;
-  height: 20vh;
-  background-color: var(--black);
-}
-
-.footer-icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 75%;
-  border-bottom: 0.1px solid rgb(68, 68, 68);
-}
-.footer-icons i{
-  color: white;
-  font-size: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.footer-icons i:hover{
-  cursor: pointer;
-  color: rgb(175, 175, 175);
-}
-
-.footer-text{
-  height: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: smaller;
-  font-weight: 100;
-  color: rgb(155, 155, 155);
-}
+</html>
