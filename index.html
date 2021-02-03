@@ -63,11 +63,24 @@
                     <p class="services-item-paragraph">iPhones, Androids, Tablets...
                         Responsive web design will make your website versatile for any device to view on.</p>
                 </div>
-                <div class="services-item6">
-                    <h3 class="services-item-header">Minimalistic Landing Pages.</h3>
-                    <p class="services-item-paragraph">Sometimes, a simple landing page is the best way to make your
-                        offer as clear as possible.</p>
-                </div>
+                <ul class="services-item6">
+                    <li>
+                    <img src="imgs/5f340a153d78657dae90a080_responsive.png" width="50px" alt="">
+                    <p>Responsive Design</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340a15e68d1a1d1222fbde_schnelle ladezeiten.png" width="50px" alt="">
+                        <p>Fast Loading Time</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340a14e68d1a679d22fbdd_clean css.png" width="50px" alt="">
+                        <p>Clean CSS Structure</p>
+                    </li>
+                    <li>
+                        <img src="imgs/5f340865f047536359df73cb_seo.png" width="50px" alt="">
+                        <p>SEO</p>
+                    </li>
+                </ul>
                 <!-- <div class="services-item3">Modern Webiste Development</div>
                 <div class="services-item4">Mobile Applications with React.js</div>
                 <div class="services-item5">Responsive Design</div>
@@ -108,11 +121,28 @@
         </section>
 
         <section id="about">
-            <h1 class="about-header">About</h1>
+            <h1 class="section-header">About</h1>
         </section>
 
         <section id="contact">
-            <h1 class="contact-header">Contact</h1>
+            <h1 class="section-header">Contact</h1>
+            <p class="section-paragraph">Have a question or want to work together?
+            </p>
+            <div  class="contact-forms">
+                <form class="contact-form" action="" method="POST">
+                    <label for="f-name"></label>
+                    <input type="text" name="f-name" id="name" placeholder="Name">
+    
+                    <label for="f-email"></label>
+                    <input type="email" name="email" id="f-email" placeholder="E-mail"
+                    pattern=".+@" required>
+    
+                    <label for="textarea"></label>
+                    <textarea id="f-textarea" rows="8" placeholder="Your message"></textarea>
+                    
+                    <input type="submit" id="f-submit" value="Submit >">
+                </form>   
+            </div>
         </section>
 
     </main>
