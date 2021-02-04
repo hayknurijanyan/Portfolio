@@ -294,35 +294,59 @@ body {
 
 .portfolio-list-item1 {
   /* border: 1px solid red; */
-  border-radius: 0.5rem;
+  background: url(imgs/photoprint.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.3rem;
   overflow: hidden;
   background-color: var(--grey);
+  box-shadow: 6px 8px 10px 1px #ccc;
 }
 
 .portfolio-list-item2 {
+  background: url(imgs/magnum.png);
+  background-position: top;
+  background-size: cover;
   background-color: var(--grey);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 6px 8px 10px 1px #ccc;
   overflow: hidden;
 }
 .portfolio-list-item3 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
+  background: url(imgs/quest-cover-lg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: whitesmoke;
+  border-radius: 0.3rem;
+  box-shadow: 6px 8px 10px 1px #ccc;
   overflow: hidden;
 }
 .portfolio-list-item4 {
+  background: url(imgs/slide_display_team_05s.jpg);
+  background-position: center;
+  background-size: cover;
   background-color: var(--grey);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 6px 8px 10px 1px #ccc;
   overflow: hidden;
 }
 .portfolio-list-item5 {
-  background-color: var(--grey);
-  border-radius: 0.5rem;
+  background: url(imgs/android-ios-tic-tac-toe.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  box-shadow: 6px 8px 10px 1px #ccc;
   overflow: hidden;
 }
 
 .portfolio-list-item6 {
+  background: url(imgs/tetris.jpg);
+  background-position: center;
+  background-size: cover;
   background-color: var(--grey);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 6px 8px 10px 1px #ccc;
   overflow: hidden;
 }
 
@@ -341,23 +365,62 @@ body {
   padding: 2rem;
   color: var(--darkblue);
 }
-.about-container{
+.about-container {
   display: flex;
   height: 72%;
-  
+  justify-content: center;
 }
 
-.about-paragraph{
-  background-color: aquamarine;
-  width:60%;
-  height: 100%;
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 40px;
+  width: 50%;
+  height: 90%;
+  margin: 0 20px 0 20px;
+  box-shadow: 2px 2px 8px 2px var(--grey);
+  border-radius: 0.3rem;
 }
 
-.about-img{
-  width:40%;
-  background-color: cadetblue;
+.about-content-header {
+  margin-bottom: 30px;
 }
 
+.about-content-header p {
+  margin-top: 3px;
+  color: grey;
+}
+
+.about-content > p {
+  font-size: large;
+}
+
+.about-content button {
+  margin-top: 30px;
+  border: none;
+  align-self: flex-start;
+  background-color: transparent;
+  font-size: larger;
+  color: var(--blue);
+  outline: none;
+}
+
+.about-content button {
+  cursor: pointer;
+}
+
+.about-img {
+  width: 25%;
+  height: 90%;
+  margin: 0 20px 0 20px;
+  background: url(imgs/about-img1.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 2px 8px 2px var(--grey);
+  border-radius: 0.3rem;
+}
 
 #contact {
   width: 100%;
@@ -429,26 +492,26 @@ body {
   background-color: var(--black);
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 75%;
   border-bottom: 0.1px solid rgb(68, 68, 68);
 }
-.footer-icons i{
+.footer-icons i {
   color: white;
   font-size: 40px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.footer-icons i:hover{
+.footer-icons i:hover {
   cursor: pointer;
   color: rgb(175, 175, 175);
 }
 
-.footer-text{
+.footer-text {
   height: 25%;
   display: flex;
   justify-content: center;
