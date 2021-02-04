@@ -341,6 +341,23 @@ body {
   padding: 2rem;
   color: var(--darkblue);
 }
+.about-container{
+  display: flex;
+  height: 72%;
+  
+}
+
+.about-paragraph{
+  background-color: aquamarine;
+  width:60%;
+  height: 100%;
+}
+
+.about-img{
+  width:40%;
+  background-color: cadetblue;
+}
+
 
 #contact {
   width: 100%;
