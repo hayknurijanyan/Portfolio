@@ -11,7 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Inter", sans-serif;
-  scroll-margin-top: 2.8rem;
+  /* scroll-margin-top: 2.8rem; */
   scroll-behavior: smooth;
   color: var(--black);
 }
@@ -86,26 +86,29 @@ body {
   flex-direction: column;
   padding: 5rem;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   /* background-color: grey; */
   /* background-image: url(imgs/pexels-huseyn-kamaladdin-667838.jpg); */
 }
 
 .slider-portrait {
-  background-color: ivory;
   background-image: url(imgs/portfolio3.JPG);
   background-size: cover;
   background-position: center;
   border-radius: 0.5rem;
   box-shadow: 6px 8px 10px 1px #ccc;
-  width: 17rem;
-  min-height: 20rem;
+  width: 20%;
+  min-width: 280px;
+  height: 58%;
+  min-height: 360px;
+  /* margin-bottom: 20px; */
 }
 .slider-description {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* height: 30%; */
 }
 
 .slider-description-name {
@@ -136,7 +139,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 50px;
   padding-bottom: 1rem;
   font-size: 3rem;
 }
@@ -151,7 +154,8 @@ body {
 
 #services {
   width: 100%;
-  height: 120vh;
+  height: 100%;
+  height: 900px;
   background-color: var(--backgrey);
 }
 
@@ -159,12 +163,11 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-  height: 80vh;
-  padding: 3rem;
+  height: 100%;
   grid-row-gap: 2rem;
   grid-column-gap: 2rem;
-  grid-template-rows: 24% 24% 24% 24%;
-  grid-template-columns: 30% 20% 20%;
+  grid-template-rows: 15% 15% 15% 15%;
+  grid-template-columns: 27% 20% 20%;
 }
 
 .services-item-header {
@@ -274,18 +277,17 @@ body {
 
 #portfolio {
   width: 100%;
-  height: 160vh;
+  height: 1100px;
 }
-
 .portfolio-list {
   display: grid;
-  grid-gap: 2rem 4rem;
+  grid-gap: 2rem 5rem;
   /* align-items: center; */
   justify-content: center;
   width: 100%;
-  height: 100vh;
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 35% 35%;
+  height: 700px;
+  grid-template-rows: 35% 35% 35%;
+  grid-template-columns: 33% 33%;
 }
 
 .item-img {
@@ -352,7 +354,8 @@ body {
 
 #about {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  min-height:800px;
   background-color: var(--backgrey);
 }
 
@@ -377,7 +380,7 @@ body {
   justify-content: space-between;
   background-color: white;
   padding: 40px;
-  width: 50%;
+  width: 46.5%;
   height: 90%;
   margin: 0 20px 0 20px;
   box-shadow: 2px 2px 8px 2px var(--grey);
@@ -413,7 +416,7 @@ body {
 
 .about-img {
   width: 25%;
-  height: 90%;
+  min-height: 90%;
   margin: 0 20px 0 20px;
   background: url(imgs/about-img1.jpg);
   background-position: center;
@@ -424,7 +427,8 @@ body {
 
 #contact {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  min-height: 800px;
   background-color: var(--red);
 }
 
@@ -443,6 +447,7 @@ body {
   /* width: 100%; */
   justify-content: center;
   height: 80%;
+  min-height:500px ;
 }
 
 .contact-form {
