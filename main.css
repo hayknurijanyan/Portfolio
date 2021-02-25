@@ -299,6 +299,7 @@ body {
 
 .portfolio-list-item1 {
   /* border: 1px solid red; */
+  margin: 15px;
   background: url(imgs/photoprint.jpg);
   background-position: center;
   background-size: cover;
@@ -309,6 +310,7 @@ body {
 }
 
 .portfolio-list-item2 {
+  margin: 15px;
   background: url(imgs/magnum.png);
   background-position: top;
   background-size: cover;
@@ -318,6 +320,7 @@ body {
   overflow: hidden;
 }
 .portfolio-list-item3 {
+  margin: 15px;
   background: url(imgs/quest-cover-lg.jpg);
   background-position: center;
   background-size: contain;
@@ -327,6 +330,7 @@ body {
   overflow: hidden;
 }
 .portfolio-list-item4 {
+  margin: 15px;
   background: url(imgs/slide_display_team_05s.jpg);
   background-position: center;
   background-size: cover;
@@ -336,6 +340,7 @@ body {
   overflow: hidden;
 }
 .portfolio-list-item5 {
+  margin: 15px;
   background: url(imgs/android-ios-tic-tac-toe.png);
   background-position: center;
   background-size: cover;
@@ -346,6 +351,7 @@ body {
 }
 
 .portfolio-list-item6 {
+  margin: 15px;
   background: url(imgs/tetris.jpg);
   background-position: center;
   background-size: cover;
