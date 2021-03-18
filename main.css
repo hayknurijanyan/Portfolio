@@ -652,7 +652,7 @@ body {
     justify-content: space-between;
     background-color: white;
     height: 100%;
-    padding: 40px;
+    padding: 20px;
     width: 90%;
     margin: 0 20px 0 20px;
     box-shadow: 2px 2px 8px 2px var(--grey);
@@ -669,8 +669,8 @@ body {
     border-radius: 0.1rem;
   }
   .about-content > p {
-    font-size: 16px;
-    line-height: 29px;
+    font-size: 15px;
+    line-height: 26px;
   }
 
   .contact-form {
