@@ -392,7 +392,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  height: 500px;
+  height: fit-content;
   padding: 40px;
   width: 46.5%;
   margin: 0 20px 0 20px;
@@ -422,6 +422,7 @@ body {
   font-size: larger;
   color: var(--blue);
   outline: none;
+  padding: 0;
 }
 
 .about-content button {
@@ -430,10 +431,10 @@ body {
 
 .about-img {
   width: 25%;
-  height: 500px;
+  height: auto;
   margin: 0 20px 0 20px;
   background: url(imgs/about-img1.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   box-shadow: 2px 2px 8px 2px var(--grey);
   border-radius: 0.3rem;
@@ -563,7 +564,7 @@ body {
   .slider-description-profession {
     text-align: center;
     font-size: 2.5rem;
-    color: rgb(145, 145, 145);
+    color: rgb(128, 128, 128);
   }
 
   .slider-description-paragraph {
@@ -650,17 +651,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: white;
     height: 100%;
-    padding: 18px;
+    padding: 20px;
     width: 90%;
     margin: 0 20px 0 20px;
     box-shadow: 2px 2px 8px 2px var(--grey);
     border-radius: 0.1rem;
   }
+  .about-content button {
+    padding: 0;
+  }
   .about-img {
     width: 90%;
-    height: 500px;
+    min-height: 500px;
     margin: 0 20px 0 20px;
     background: url(imgs/about-img1.jpg);
     background-position: center;
