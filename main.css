@@ -566,7 +566,6 @@ body {
     color: rgb(156, 156, 156);
   }
 
-  
   .slider-description-paragraph {
     text-align: center;
     font-size: 1.3rem;
@@ -624,7 +623,7 @@ body {
     grid-column: 1;
     grid-row: 6/7;
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 16px;
   }
 
   #portfolio {
