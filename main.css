@@ -51,6 +51,14 @@ body {
   color: var(--secondary);
 }
 
+.home-item {
+  display: none !important;
+}
+
+.contact-item {
+  display: none !important;
+}
+
 .nav-contact {
   width: 9rem;
 }
@@ -200,6 +208,7 @@ body {
 
 .services-item2 {
   display: flex;
+  align-items: center;
   grid-column: 2/4;
   grid-row: 1/4;
   border-radius: 0.5rem;
@@ -292,6 +301,20 @@ body {
   grid-template-rows: 35% 35% 35%;
   grid-template-columns: 33% 33%;
 }
+.portfolio-list a {
+  text-decoration: none;
+}
+
+.item-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.item-description:hover {
+  color: #1984ea;
+}
 
 .item-img {
   width: 100%;
@@ -304,7 +327,7 @@ body {
 .portfolio-list-item1 {
   /* border: 1px solid red; */
   margin: 15px;
-  background: url(imgs/photoprint.jpg);
+  background: url(imgs/yourphoto1.png);
   background-position: center;
   background-size: cover;
   border-radius: 0.3rem;
@@ -335,7 +358,7 @@ body {
 }
 .portfolio-list-item4 {
   margin: 15px;
-  background: url(imgs/slide_display_team_05s.jpg);
+  background: url(imgs/carify1.png);
   background-position: center;
   background-size: cover;
   background-color: var(--grey);
@@ -542,11 +565,29 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .nav-logo {
+  .nav-logo a {
     display: none;
   }
-  .nav-contact {
+  .nav-contact a {
     display: none;
+  }
+  .nav-list-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0rem 1rem;
+  }
+  .contact-item {
+    display: block !important;
+    align-self: center;
+    font-size: 13px;
+  }
+
+  .home-item {
+    display: block !important;
+    align-self: center;
+    font-size: 13px;
   }
 
   #slider {
@@ -606,6 +647,7 @@ body {
   }
   .services-item2 {
     grid-column: 1;
+
     grid-row: 2/3;
   }
   .services-item3 {
@@ -681,5 +723,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .header-nav {
+    display: none;
   }
 }
